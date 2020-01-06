@@ -17,15 +17,15 @@ puts beyonce.name
 class Person.job
   
   def job=(persons_job)
-    @this_persons_job = dogs_breed
+    @this_persons_job = persons_job
   end
   
-  def Dog.breed
-    @this_dogs_breed
+  def Person.job
+    @this_persons_job
   end
 end
 
-husky = Dog.new 
-fido.breed = "Husky"
+job = Person.new 
+beyonce.job = "Singer"
 
-puts fido.breed 
+puts person.job 
