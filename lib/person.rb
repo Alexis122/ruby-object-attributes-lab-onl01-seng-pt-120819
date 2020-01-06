@@ -17,7 +17,7 @@ puts beyonce.name
 class Person.job
   
   def job=(persons_job)
-    @this_dogs_breed = dogs_breed
+    @this_persons_job = dogs_breed
   end
   
   def Dog.breed
