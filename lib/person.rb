@@ -12,4 +12,4 @@ end
 beyonce = Person.new 
 beyonce.name = "Beyonce"
 
-puts fido.name 
+puts beyonce.name 
