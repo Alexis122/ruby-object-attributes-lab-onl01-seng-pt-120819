@@ -1,15 +1,15 @@
 class Person 
   
   def name=(person_name)
-    @this_dogs_name = dogs_name
+    @this_persons_name = person_name
   end
   
   def name
-    @this_dogs_name
+    @this_persons_name
   end
 end
 
-fido = Dog.new 
-fido.name = "Fido"
+beyonce = Person.new 
+beyonce.name = "Beyonce"
 
 puts fido.name 
