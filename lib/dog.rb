@@ -14,13 +14,13 @@ fido.name = "Fido"
 
 puts fido.name 
 
-class Dog 
+class Dog.breed 
   
   def breed=(dogs_breed)
     @this_dogs_breed = dogs_breed
   end
   
-  def breed
+  def Dog.breed
     @this_dogs_breed
   end
 end
