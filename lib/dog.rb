@@ -16,7 +16,7 @@ puts fido.name
 
 class Dog 
   
-  def breed=(dogs_name)
+  def breed=(dogs_breed)
     @this_dogs_name = dogs_name
   end
   
