@@ -17,10 +17,10 @@ puts fido.name
 class Dog 
   
   def breed=(dogs_breed)
-    @this_dogs_breed = dogs_name
+    @this_dogs_breed = dogs_breed
   end
   
-  def name
+  def breed
     @this_dogs_name
   end
 end
